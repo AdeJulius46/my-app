@@ -6,25 +6,12 @@ import App from './App';
 
 
 
-function Julius() {
-  return (
-    <div className="App" >
-      <ul>
-        <li>i love react </li>
-        <li>i love react </li>
-        <li>i love react </li>
-        <li>i love react </li>
-      </ul>
-    </div>
-  );
-  
-}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-    <Julius />
+  <React.StrictMode>  
+    {/* <Julius /> */}
+    <App /> 
   </React.StrictMode>
 );
 

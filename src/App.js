@@ -1,19 +1,30 @@
 
-import './App.css'; 
+import React from 'react';
+import Navbar from './Nav';
+import Main from './main';
 
-function App() {
-  return (
-    <div className="App">
-     <h1>Hello </h1>
-    <img src='./logo192.png'/>
-    <ul>
-      <li>julius</li>
-      <li>julius</li>
-      <li>julius</li>
-      <li>julius</li>
-    </ul>
-    </div>
-  );
+
+// function App() {
+//   return (
+//     <div className='div'>
+//       <h1>Reasons Im excited about react</h1>
+//     <ul className="App">
+//       <li>julius hwvytif c4t67tcr5r6c2rcr3e76d554trv1c53r</li>
+//       <li>juliushgy kdgetdd653rd5e3rd5r35</li>
+//       <li>julius kjdhtetcet6tdt7et6f7</li>
+//       <li>julius j0edt6egeywud9tdqp87gg7ef0e87qhpae8</li>
+//     </ul>
+//     </div>
+//   )
+// }
+function App(){
+return (
+  <div className='div' >
+    <Navbar />
+    <Main />
+     </div>
+    
+    )
 }
 
 
