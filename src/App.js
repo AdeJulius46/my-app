@@ -1,7 +1,9 @@
 
 import React from 'react';
-import Navbar from './Nav';
-import Main from './main';
+import Info from './info';
+import About from './about';
+import Interest from './interest'
+import Footer from './footer'
 
 
 // function App() {
@@ -19,9 +21,11 @@ import Main from './main';
 // }
 function App(){
 return (
-  <div className='div' >
-    <Navbar />
-    <Main />
+  <div className='main' >
+    <Info />
+    <About />
+    <Interest />
+    <Footer />
      </div>
     
     )

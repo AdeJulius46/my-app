@@ -11,37 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-nav{
-  display: flex;
-  align-items: center;
+
+.main{
+  width: 350px;
+  height: 100vh;
+  margin-left:40% ;
+  border-radius: 10px;
+  margin-top:20px;
+  padding: 20px;
   background-color: black;
   color: white;
-  padding: 20px;
+}
+ 
 
-}
-nav > h4, nav > h3{
-  margin: 0;
-
-}
-nav > h3{
-  margin-right: auto;
-  color: rgb(33, 197, 212);
-  font-weight: 700;
-}
-nav > h4{
-  margin-right: 9px;
-}
-.rea{
-  width: 50px;
-
-
-}
-.fu{
-  font-weight: bold;
-  padding: 20px;
-}
-.ull > ol{
-  margin-right: 40px;
+button{
+  padding: 10px 20px;
+  border: none;
+  margin-left: 20px;
+  width: 40%;
+  border-radius: 5px;
   
-
 }
+
+.lau{
+  height: 30vh;
+}
+  .info{
+      text-align: center;
+      
+  }
+  .about{
+    text-align: start;
+  }
+  .int{
+    text-align: start;
+  }
